@@ -227,12 +227,16 @@
 	.packages i {
 		font-size: 200%;
 	}
+	
+	.packages .grid li {
+		padding: 12px ;
+	}
 
 	.packages .grid p {
 		font-size: 13px;
-		margin-bottom: 7px;
+		margin-bottom: 5px;
 	}
-
+	
 	.testimonials .quote {
 		font-size: 14px;
 	}
