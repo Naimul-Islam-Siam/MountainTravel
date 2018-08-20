@@ -255,4 +255,12 @@
 	footer p {
 		font-size: 12px;
 	}
+
+	footer p:first-child {
+		margin-left: 0;
+	}
+
+	footer ul li:first-child {
+		margin-left: 0;
+	}
 }
