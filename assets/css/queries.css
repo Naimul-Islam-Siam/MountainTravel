@@ -245,6 +245,10 @@
 		margin-bottom: 5px;
 	}
 	
+	.quote:before {
+		left: 8px;
+	}
+
 	.testimonials .quote {
 		font-size: 14px;
 	}
