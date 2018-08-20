@@ -200,11 +200,21 @@
 	body {
 		font-size: 16px;
 	}
+
+	nav h2 {
+		font-size: 14px;
+	}
+	
 	.hero h1 {
 		font-size: 25px;
 	}
 	.hero h3 {
 		font-size: 17px;
+	}
+
+	.hero .btn:link,
+	.hero .btn:visited {
+		padding: 7px 15px;
 	}
 
 	section h2 {
@@ -227,6 +237,11 @@
 		margin-bottom: 12px;
 	}
 
+	.destinations p,
+	.contact p {
+		padding: 7px;
+	}
+	
 	.destinations .grid li {
 		height: 290px;
 		padding: 4px 3px;
@@ -239,10 +254,16 @@
 	.packages .grid li {
 		padding: 12px ;
 	}
+	
+	.packages .grid li h4 {
+		margin-top: 7px;
+		margin-bottom: 10px;
+	}
 
 	.packages .grid p {
 		font-size: 13px;
 		margin-bottom: 5px;
+		padding: 6px;
 	}
 	
 	.quote:before {
@@ -251,14 +272,21 @@
 
 	.testimonials .quote {
 		font-size: 14px;
+		margin-top: 10px;
+		margin-bottom: 8px;
 	}
 
 	.testimonials .author {
 		font-size: 15px;
+		margin-bottom: 10px;
 	}
 
 	.contact form {
 		margin-top: 13px;
+	}
+
+	form .btn {
+		padding: 8px 13px;
 	}
 
 	footer p {
