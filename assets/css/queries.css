@@ -124,6 +124,7 @@
 
     section h2:after {
     	height: 2px;
+    	width: 100px;
     	margin-bottom: 28px;
 		margin-top: 25px;
     }
@@ -211,6 +212,8 @@
 	}
 	
 	section h2:after {
+		width: 80px;
+		height: 1.7;
 		margin-top: 20px;
 		margin-bottom: 23px;
 	}
