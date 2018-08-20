@@ -218,6 +218,10 @@
 		margin-bottom: 23px;
 	}
 
+	section {
+		padding: 30px 10px;
+	}
+
 	section p {
 		line-height: 1.7;
 		margin-bottom: 12px;
@@ -225,6 +229,7 @@
 
 	.destinations .grid li {
 		height: 290px;
+		padding: 4px 3px;
 	}
 
 	.packages i {
