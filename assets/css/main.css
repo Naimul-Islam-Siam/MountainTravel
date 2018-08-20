@@ -225,6 +225,8 @@ DESTINATIONS
 	-webkit-background-clip: content-box;
 	background-size: cover;
 	background-position: center;
+    -webkit-transition: 2s;
+    transition: 2s;
 }
 
 .destinations .grid li.small {
@@ -235,6 +237,12 @@ DESTINATIONS
 .destinations .grid li.large {
 	-ms-flex-preferred-size: 70%;
 	flex-basis: 70%;
+}
+
+.destinations .grid li:hover {
+	-webkit-transform: scale(0.85);
+	transform: scale(0.85);
+
 }
 
 
@@ -273,7 +281,15 @@ section p {
 
 .packages i {
 	color: #913D88;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
+
+.packages i:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
 
 
 /*====================================
