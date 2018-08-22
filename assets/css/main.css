@@ -226,8 +226,8 @@ DESTINATIONS
 	-webkit-background-clip: content-box;
 	background-size: cover;
 	background-position: center;
-    -webkit-transition: 4s;
-    transition: 4s;
+    -webkit-transition: 4s all ease-in-out;
+    transition: 4s all ease-in-out;
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s
 }
@@ -245,7 +245,6 @@ DESTINATIONS
 .destinations .grid li:hover {
 	-webkit-transform: scale(0.85);
 	transform: scale(0.85);
-
 }
 
 
@@ -370,7 +369,7 @@ form .btn {
 	color: #fff;
 	text-decoration: none;
 	border-radius: 10px;
-	cursor:pointer;
+	cursor: not-allowed;
 }
 
 form .btn:hover,
