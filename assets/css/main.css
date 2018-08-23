@@ -226,10 +226,10 @@ DESTINATIONS
 	-webkit-background-clip: content-box;
 	background-size: cover;
 	background-position: center;
-    -webkit-transition: 4s all ease-in-out;
-    transition: 4s all ease-in-out;
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s
+    -webkit-transition: 3s cubic-bezier(0.635, 0.665, 0.530, 1.435);
+    transition: 3s all cubic-bezier(0.635, 0.665, 0.530, 1.435);
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s
 }
 
 .destinations .grid li.small {
